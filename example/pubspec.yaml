@@ -1,12 +1,12 @@
 name: restart_app_example
 description: Demonstrates how to use the restart plugin.
 
-publish_to: 'none'
+publish_to: "none"
 
 version: 1.0.0
 
 environment:
-  sdk: ^3.5.1
+  sdk: ">=3.4.3 <4.0.0"
 
 dependencies:
   flutter:
@@ -16,8 +16,6 @@ dependencies:
   restart_app:
     path: ../
   url_strategy: ^0.3.0
-
-  
 
 dev_dependencies:
   flutter_test:
